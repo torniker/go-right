@@ -1,0 +1,31 @@
+# Binaries for programs and plugins
+.DS_Store
+*.exe
+*.bin
+*.exe~
+*.dll
+*.so
+*.dylib
+*.log
+var
+# IDE
+.vscode
+.idea/
+*.sublime-workspace
+
+# Go Module
+vendor
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+.env
+.env.*
+build
+
+# Time Tracking Software
+/node_modules/
+
